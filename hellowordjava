@@ -1,0 +1,83 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ConsoleApp2
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Please Enter your Name? ");
+            var Name = Console.ReadLine();
+            Console.WriteLine("Please Enter your Date of Birth?");
+            var DOB = Console.ReadLine();
+            Console.WriteLine("Please Enter your Father Name? ");
+            var FName = Console.ReadLine();
+            Console.WriteLine("Please Enter your Birth Month ?");
+            var bmonth = Console.ReadLine();
+
+            Console.WriteLine(".");
+
+            Console.WriteLine("Your Name is = " + Name);
+            Console.WriteLine("Your Father Name is = " + FName);
+            Console.WriteLine("Your Age is = " + DOB);
+            Console.WriteLine("Your Birth Month is "+ bmonth);
+            if (bmonth == "January")
+            {
+                Console.WriteLine("Your Zodiac Sign is Capricorn.");
+            }
+            if (bmonth == "February")
+            {
+                Console.WriteLine("Your Zodiac Sign is Aquarius.");
+            }
+            if (bmonth == "March")
+            {
+                Console.WriteLine("Your Zodiac Sign is Pisces.");
+            }
+            if (bmonth == "April")
+            {
+                Console.WriteLine("Your Zodiac Sign is Aries.");
+            }
+            if (bmonth == "May")
+            {
+                Console.WriteLine("Your Zodiac Sign is Taurus.");
+            }
+            if (bmonth == "June")
+            {
+                Console.WriteLine("Your Zodiac Sign is Gemini.");
+            }
+            if (bmonth == "July")
+            {
+                Console.WriteLine("Your Zodiac Sign is Cancer.");
+            }
+            if (bmonth == "August")
+            {
+                Console.WriteLine("Your Zodiac Sign is Leo.");
+            }
+            if (bmonth == "Septmber")
+            {
+                Console.WriteLine("Your Zodiac Sign is Virgo.");
+            }
+            if (bmonth == "October")
+            {
+                Console.WriteLine("Your Zodiac Sign is Libra.");
+            }
+            if (bmonth == "November")
+            {
+                Console.WriteLine("Your Zodiac Sign is Scorpio.");
+            }
+            if (bmonth == "December")
+            {
+                Console.WriteLine("Your Zodiac Sign is Sagitarius.");
+            }
+
+
+            Console.WriteLine("Please Enter any Key to continue...");
+            Console.ReadKey();
+        }
+    }
+}
+
